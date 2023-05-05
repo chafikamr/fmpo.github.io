@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css
+    " rel="stylesheet">
+
+    <link rel="stylesheet" href="../style.css">
+    <style>
+          .slick-slide {
+    height: 500px; /* Set the height of the individual carousel slides */
+    display: flex !important;
+    justify-content: center;
+    max-width:90% !important
+  }
+          .slick-slide img {
+    height: 100%;
+  }
+  .slick-arrow{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    position: absolute;
+    top: 50%;
+    z-index: 9099;
+  }
+  .slick-next{
+    right: 0;
+    border-radius: 20px 0 0 20px;
+    
+  }
+  .slick-prev{
+    left: 0;
+   
+    border-radius: 0px 20px 20px 0px;
+   
+  }
+    </style>
+</head>
+<body>
+
+    <header class="lightbox-header">
+        <div class="lightbox-logo">
+          <img src="../asssets/images/logo.png" alt="" style="max-height:50%;margin-left:50px">
+        </div>
+      </header>
+     
+    <div class="center mt-5" style="height:500px">
+        <div><img src="../asssets/images/test i .jpg" alt="" srcset=""></div>
+        <div><img src="../asssets/images/test 2_Plan de travail 1.jpg" alt="" srcset=""></div>
+        <div><img src="../asssets/images/test 3_Plan de travail 1.jpg" alt="" srcset=""></div>
+        <div><img src="../asssets/images/test i .jpg" alt="" srcset=""></div>
+        <div><img src="../asssets/images/test 2_Plan de travail 1.jpg" alt="" srcset=""></div>
+        <div><img src="../asssets/images/test 3_Plan de travail 1.jpg" alt="" srcset=""></div>
+        
+      </div>
+
+      <div style="position:fixed;bottom:0;width:100%">
+        <div class="container mb-3" >
+            <div class="footer d-flex justify-content-between">
+              <div class="div span"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+              </svg><span class="mx-3">Aide</span></div>
+              <div class="div span">By <span class="text-green">Digital Garden</span></div>
+              </div>
+          </div></div>
+      
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+      <script src="
+      https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js
+      "></script>
+<script>
+  
+$('.center').slick({
+  centerMode: true,
+//   centerPadding: '60px',
+  slidesToShow: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+
+ 
+});
+		
+</script>
+</body>
+</html>

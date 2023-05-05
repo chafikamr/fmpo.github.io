@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+  <style>
+
+  </style>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+      <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/andreknieriem/simplelightbox@master/dist/simple-lightbox.min.css?v2.13.0">
+      <script src="asssets/simple-lightbox.js"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="lightbox-header">
+    <div class="lightbox-logo">
+      <img src="asssets/images/logo.png" alt="" id="dglogo" style="max-height:50%;margin-top:20px">
+    </div>
+  </header>
+ 
+<div class="content bg-light" >
+  <div class="container ">
+    <div class="row text-center">
+      <div class="col-md-3 " id="openLightbox1">
+        <div class="card card-body mt-4 d-flex justify-content-center p-4 smooth-shad shadow-sm ">
+          Figures emblématiques de la médecin
+        </div>
+      </div>
+      <div class="col-md-3 " id="openLightbox2">
+        <div class="card card-body mt-4 d-flex justify-content-center p-4 smooth-shad shadow-sm ">
+          Avant-gardisme médical 
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="card card-body mt-4 d-flex justify-content-center p-4 smooth-shad shadow-sm ">
+          Hôpital Militaire
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="card card-body mt-4 d-flex justify-content-center p-4 smooth-shad shadow-sm ">
+          Infirmerie Indigène
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="card card-body mt-4 d-flex justify-content-center p-4 smooth-shad shadow-sm ">
+          Hôpital Mixte
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="card card-body mt-4 d-flex justify-content-center p-4 smooth-shad shadow-sm ">
+          Maurice Loustau ( Al Farabi)
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="card card-body mt-4 d-flex justify-content-center p-4 smooth-shad shadow-sm ">
+          Lazaret 
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="card card-body mt-4 d-flex justify-content-center p-4 smooth-shad shadow-sm ">
+          Hôpital US
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="card card-body mt-4 d-flex justify-content-center p-4 smooth-shad shadow-sm ">
+          Établissements de santé privés
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="card card-body mt-4 d-flex justify-content-center p-4 smooth-shad shadow-sm ">
+          Figures emblématiques de la médecine
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="card card-body mt-4 d-flex justify-content-center p-4 smooth-shad shadow-sm ">
+          Dentistes 
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="card card-body mt-4 d-flex justify-content-center p-4 smooth-shad shadow-sm ">
+          Pharmacies 
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="card card-body mt-4 d-flex justify-content-center p-4 smooth-shad shadow-sm ">
+          Protection 
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="card card-body mt-4 d-flex justify-content-center p-4 smooth-shad shadow-sm ">
+          maternelle et infantile
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="card card-body mt-4 d-flex justify-content-center p-4 smooth-shad shadow-sm ">
+          Croix Rouge Française
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="card card-body mt-4 d-flex justify-content-center p-4 smooth-shad shadow-sm ">
+          Croissant Rouge Marocain
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="card card-body mt-4 d-flex justify-content-center p-4 smooth-shad shadow-sm ">
+          Structure bibliographique
+        </div>
+      </div>
+      
+      
+     
+    </div>
+  </div>
+</div>
+<!--- lightbox 01-->
+<div class="lightbox-1 d-none">
+  <a href="asssets/images/FIGUR/1.jpg"><img src="asssets/images/FIGUR/1.jpg"></a>
+  <a href="asssets/images/FIGUR/test tactil.png"><img src="asssets/images/FIGUR/test tactil.png"></a>
+  <a href="asssets/images/FIGUR/test tactil2.png"><img src="asssets/images/FIGUR/test tactil2.png"></a>
+  <a href="asssets/images/FIGUR/test tactil3.png"><img src="asssets/images/FIGUR/test tactil3.png"></a>
+  <a href="asssets/images/FIGUR/test tactil4.png"><img src="asssets/images/FIGUR/test tactil4.png"></a>
+  <a href="asssets/images/FIGUR/test tactil5.png"><img src="asssets/images/FIGUR/test tactil5.png"></a>
+  <a href="asssets/images/FIGUR/test tactil6.png"><img src="asssets/images/FIGUR/test tactil6.png"></a>
+  <a href="asssets/images/FIGUR/test tactil7.png"><img src="asssets/images/FIGUR/test tactil7.png"></a>
+  <a href="asssets/images/FIGUR/test tactil8.png"><img src="asssets/images/FIGUR/test tactil8.png"></a>
+  <a href="asssets/images/FIGUR/test tactil9.png"><img src="asssets/images/FIGUR/test tactil9.png"></a>
+  <a href="asssets/images/FIGUR/test tactil10.png"><img src="asssets/images/FIGUR/test tactil10.png"></a>
+  <a href="asssets/images/FIGUR/test tactil11.png"><img src="asssets/images/FIGUR/test tactil11.png"></a>
+  <a href="asssets/images/FIGUR/test tactil12.png"><img src="asssets/images/FIGUR/test tactil12.png"></a>
+  <a href="asssets/images/FIGUR/test tactil13.png"><img src="asssets/images/FIGUR/test tactil13.png"></a>
+  <a href="asssets/images/FIGUR/test tactil14.png"><img src="asssets/images/FIGUR/test tactil14.png"></a>
+  <a href="asssets/images/FIGUR/test tactil15.png"><img src="asssets/images/FIGUR/test tactil15.png"></a>
+  <a href="asssets/images/FIGUR/test tactil 16.png"><img src="asssets/images/FIGUR/test tactil 16.png"></a>
+  <a href="asssets/images/FIGUR/test tactil 17.png"><img src="asssets/images/FIGUR/test tactil 17.png"></a>
+  <a href="asssets/images/FIGUR/test tactil 18.png"><img src="asssets/images/FIGUR/test tactil 18.png"></a>
+  <a href="asssets/images/FIGUR/test tactil 19.png"><img src="asssets/images/FIGUR/test tactil 19.png"></a>
+  <a href="asssets/images/FIGUR/test tactil 20.png"><img src="asssets/images/FIGUR/test tactil 20.png"></a>
+  <a href="asssets/images/FIGUR/test tactil 21.png"><img src="asssets/images/FIGUR/test tactil 21.png"></a>
+</div>
+
+<script>
+  $(document).ready(function(){
+  
+    var $gallery = new SimpleLightbox('.lightbox-1 a', {
+      docClose : false,
+      navText: 	[`<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+</svg>`,`<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg>`],
+      showCounter: true,
+    });
+    $('#openLightbox1').click(function(){ // Create event listener for button click
+      $gallery.open(); // Open SimpleLightbox
+    });
+  });
+</script>
+<!-- lightbox 02 -->
+<!--- lightbox 01-->
+<div class="lightbox-2 d-none">
+  
+  <a href="asssets/images/FIGUR/test tactil.png"><img src="asssets/images/FIGUR/test tactil.png"></a>
+  <a href="asssets/images/FIGUR/test tactil2.png"><img src="asssets/images/FIGUR/test tactil2.png"></a>
+  <a href="asssets/images/FIGUR/test tactil3.png"><img src="asssets/images/FIGUR/test tactil3.png"></a>
+  <a href="asssets/images/FIGUR/test tactil4.png"><img src="asssets/images/FIGUR/test tactil4.png"></a>
+  <a href="asssets/images/FIGUR/test tactil5.png"><img src="asssets/images/FIGUR/test tactil5.png"></a>
+  <a href="asssets/images/FIGUR/test tactil6.png"><img src="asssets/images/FIGUR/test tactil6.png"></a>
+  <a href="asssets/images/FIGUR/test tactil7.png"><img src="asssets/images/FIGUR/test tactil7.png"></a>
+  <a href="asssets/images/FIGUR/test tactil8.png"><img src="asssets/images/FIGUR/test tactil8.png"></a>
+  <a href="asssets/images/FIGUR/test tactil9.png"><img src="asssets/images/FIGUR/test tactil9.png"></a>
+  <a href="asssets/images/FIGUR/test tactil10.png"><img src="asssets/images/FIGUR/test tactil10.png"></a>
+  <a href="asssets/images/FIGUR/test tactil11.png"><img src="asssets/images/FIGUR/test tactil11.png"></a>
+  <a href="asssets/images/FIGUR/test tactil12.png"><img src="asssets/images/FIGUR/test tactil12.png"></a>
+  <a href="asssets/images/FIGUR/test tactil13.png"><img src="asssets/images/FIGUR/test tactil13.png"></a>
+  <a href="asssets/images/FIGUR/test tactil14.png"><img src="asssets/images/FIGUR/test tactil14.png"></a>
+  <a href="asssets/images/FIGUR/test tactil15.png"><img src="asssets/images/FIGUR/test tactil15.png"></a>
+  <a href="asssets/images/FIGUR/test tactil 16.png"><img src="asssets/images/FIGUR/test tactil 16.png"></a>
+  <a href="asssets/images/FIGUR/test tactil 17.png"><img src="asssets/images/FIGUR/test tactil 17.png"></a>
+  <a href="asssets/images/FIGUR/test tactil 18.png"><img src="asssets/images/FIGUR/test tactil 18.png"></a>
+  <a href="asssets/images/FIGUR/test tactil 19.png"><img src="asssets/images/FIGUR/test tactil 19.png"></a>
+  <a href="asssets/images/FIGUR/test tactil 20.png"><img src="asssets/images/FIGUR/test tactil 20.png"></a>
+  <a href="asssets/images/FIGUR/test tactil 21.png"><img src="asssets/images/FIGUR/test tactil 21.png"></a>
+</div>
+
+<script>
+  $(document).ready(function(){
+  
+    var $gallery = new SimpleLightbox('.lightbox-2 a', {
+      docClose : false,
+      navText: 	[`<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+</svg>`,`<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg>`],
+      showCounter: true,
+    });
+    $('#openLightbox2').click(function(){ // Create event listener for button click
+      $gallery.open(); // Open SimpleLightbox
+    });
+  });
+</script>
+<!-- lightbox 02 -->
+<div class="container" style="height:10vh">
+  <div class="footer d-flex align-items-center justify-content-between" style="height:100%">
+    <div class="div span"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+      <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+    </svg><span class="mx-3">Aide</span></div>
+    <div class="px-2" style="font-size: 13px; text-decoration: underline;">Made by  <img  src="https://digitalgarden.ma/img/dglogo.png" alt="" width="100" class="mx-3 d-inline-block"></div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script>
+  var count = 0;
+var timeout = null;
+
+document.getElementById('dglogo').addEventListener("click", function() {
+  count++;
+  if (count == 1) {
+    timeout = setTimeout(function() {
+      count = 0; // reset the counter
+    }, 5000); // set the timeout to 5 seconds
+  }
+  if (count == 8) {
+    clearTimeout(timeout);
+    var element = document.documentElement;
+    if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement) {
+      // deactivate full-screen mode
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.webkitExitFullscreen) {
+        document.webkitExitFullscreen();
+      } else if (document.mozCancelFullScreen) {
+        document.mozCancelFullScreen();
+      } else if (document.msExitFullscreen) {
+        document.msExitFullscreen();
+      }
+    } else {
+      // activate full-screen mode
+      if (element.requestFullscreen) {
+        element.requestFullscreen();
+      } else if (element.msRequestFullscreen) {
+        element.msRequestFullscreen();
+      } else if (element.mozRequestFullScreen) {
+        element.mozRequestFullScreen();
+      } else if (element.webkitRequestFullscreen) {
+        element.webkitRequestFullscreen();
+      }
+    }
+    count = 0; // reset the counter
+  }
+});
+
+</script>
+</body>
+
+</html>
